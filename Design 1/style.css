@@ -2,3 +2,97 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: #fbff00;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+}
+.swords {
+  width: 100px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+/* Sword 1 */
+.sword1 {
+  position: relative;
+  left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(45deg);
+}
+
+.sw-1-triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid black;
+}
+.sw-1-blade {
+  width: 60px;
+  height: 250px;
+  background: #000;
+  position: relative;
+}
+.sw-1-plate {
+  width: 150px;
+  height: 30px;
+  background: #000;
+}
+.sw-1-handle {
+  width: 40px;
+  height: 80px;
+  background: #000;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+/* Sword 2 */
+.sword2 {
+  position: relative;
+  left: -30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(-45deg);
+}
+
+.sw-2-triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid black;
+}
+.sw-2-blade {
+  width: 60px;
+  height: 250px;
+  background: #000;
+  border-left: 20px solid #fbff00;
+  border-right: 20px solid #fbff00;
+}
+
+.sw-2-plate {
+  width: 150px;
+  height: 30px;
+  background: #000;
+}
+.sw-2-handle {
+  width: 40px;
+  height: 80px;
+  background: #000;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+/* BRACKETS */
